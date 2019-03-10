@@ -1,0 +1,537 @@
+
+
+.image1
+ {   height:12.6vh;
+     width:115.9vh;
+     display: inline-block;
+     padding:0px;
+	 margin-left:50px;
+	 margin-top:-10px;
+	 -webkit-user-select:none;
+	 
+  }
+  .image2
+ {   height:130px;
+     width:250px;
+     display: inline;
+     padding: 0px;
+	 margin-left:60px;
+	 margin-top:6px;
+	 -webkit-user-select:none;
+	 
+  }
+  
+  .hero
+  {
+
+	  background-size:cover;
+	  height:320.5vh;
+	  width:199.8vh;
+	  margin: 0px 0px;
+      overflow: hidden;
+	  position:relative;
+	  background-color:#F1F3EA;
+	  
+  }
+  
+  .h1{
+	  top:6.7%;
+      width:200vh;
+	  position:absolute;
+	  color:#5A6296;
+	  -webkit-user-select:none;
+  }
+  .second
+  {
+	  height:300px;
+	  width:1310px;
+	  
+  }
+  
+  .slider
+     {
+		 border:1px;
+	     border-color:#4DC295;
+	     border-style:solid;
+		 float:left;
+		 margin-top:75px;
+		 margin-left:90px;
+		 
+	     height:380px;
+	     width:650px;
+	     background:url(E:LMRCL/images/1st.png) no-repeat;
+	     animation: slide 15s infinite;
+     }
+  @keyframes slide
+  {
+	  20%
+	  {
+		background:url(E:LMRCL/images/2.jpg) no-repeat;
+	  }
+
+		40%
+	  {
+		background:url(E:LMRCL/images/2nd.jpg) no-repeat;
+	  }
+
+		60%
+	  {
+		background:url(E:LMRCL/images/4th.jpg) no-repeat;
+	  }
+
+		
+		80%
+	  {
+		background:url(E:LMRCL/images/5th.png) no-repeat;
+	  }
+	  100%
+	  {
+		background:url(E:LMRCL/images/1st.png) no-repeat;
+	  }
+
+  }
+ 
+
+ 
+ 
+ .homn_btn {
+    padding: -10px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    background: #00b3a1;
+    color: #fff;
+    margin-top:25 px;
+    border-radius: 0;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 25px;
+    transition: all .2s ease-in-out;
+}
+ 
+ 
+ .btn {
+    display: inline-block;
+    
+    margin-bottom: 0px;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ .login
+ {
+	 position:absolute;
+	     border-radius:5px;
+	     border-width:1px;
+	     border-color:#4DC295;
+	     border-style:solid;
+	     margin-top:90px;
+		 margin-left:750px;
+		 float:;
+	     height:350px;
+	     width:500px;
+		 background:#EEF4F6  ;
+ }
+ 
+ 
+
+ 
+ 
+ 
+ 
+ .middle
+ {
+	 margin-top:185px;
+	 margin-bottom:50px;
+	 margin-left:10vh;
+	 margin-right:10vh;
+	  height:79vh;
+	  width:180vh;
+	  background:#B0E0E6;
+	 
+ }
+ 
+ .MD_msg
+ {
+	 margin-top:10vh;
+	 margin-bottom:2vh;
+	 margin-left:1vh;
+	 margin-right:10vh;
+	 height:76vh;
+	 width:92vh;
+	 background-color:#FAFBFE ; 
+ } 
+ 
+ .MD_msg_heading
+ {  
+     margin-top:10px;
+	 height:6vh;
+	 width:120vh;
+	 background-color:#808BF9  ;
+ }
+	 .h2
+	 {
+	  font-family:Georgia,serif;
+	  font-size:15px;
+	  text-align:center;
+	  top:2%;
+	  position:relative;
+	  color:#151B55   ;
+	  -webkit-user-select:none;
+	 }
+	 
+	 .director
+	 {
+		 margin-left:180px;
+		 height:265px;
+		 width:260px;
+		 text-align:center;
+		 overflow:hidden;
+	 }
+	 
+	 .img
+	 {
+		 max-height:200%;
+		 max-width:200%;
+		 transition:2s;
+	 }
+	 
+	 .director:hover img{transform:scale(1.05);}
+	 
+.h3
+{
+	color:#1629EE  ;
+	margin:-3vh 5px;
+	font-size:10px;
+	position:relative;
+	
+}
+
+.h4
+{
+	color:#202664;
+	margin:-2vh 1vh;
+	font-size:10px;
+	position:relative;
+	
+}
+.h5
+{
+
+		 margin:1vh 4vh;
+		 color:#3C49C7   ;
+		 font-family:sans-serif;
+		 font-size:10px;
+		 position:relative;
+}
+
+
+
+
+
+.button-hover {
+    border-radius: 10px;
+    background-color: #3b5998;
+    border:2px solid;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 65px;
+	padding-left:10px;
+	
+    
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+   
+    display: block;
+  
+    background-size: cover;
+}
+
+
+.button-hover1 {
+    border-radius: 10px;
+    background-color: #3b5998;
+    border:2px solid;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 28px;
+    padding-top: 65px;
+	padding-left:10px;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    display: block;
+	
+    background-size: cover;
+}
+
+
+
+.button-hover2 {
+	
+	border-radius: 10px;
+    background-color: #3b5998;
+     border:2px solid;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 28px;
+    padding-top:65px;
+	padding-left:10px;
+   
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    
+    display: block;
+    
+    background-size: cover;
+}
+
+
+.button-hover3 {
+	
+	border-radius: 10px;
+    background-color: #3b5998;
+     border:2px solid;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 28px;
+    padding-top:65px;
+	padding-left:10px;
+   
+    transition: all 0.3s;
+    cursor: pointer;
+    position: relative;
+    
+    display: block;
+    
+    background-size: cover;
+}
+
+
+.content a:hover
+  {
+	  padding-top:35px;
+	  padding-right:26px;
+	  background:fa fa-angle-double-right;
+  }
+
+  
+
+
+  
+  .route_map
+  {
+	 margin-top:50px;
+	 margin-bottom:0px;
+	 margin-left:6.5vh;
+	
+	 width:82.6vh;
+	  
+  }
+  
+  
+  .sites
+  {
+	  height:1vh;
+	  width:171vh;
+	  margin-left:100px;
+	  margin-top:-500px;
+	  
+	  position:relative;
+  }
+  
+  .sitesslider
+     {
+		 
+	     
+		 float:center;
+		 margin-top:20px;
+		 margin-left:475px;
+	     height:150px;
+	     width:200px;
+	     background:url(E:LMRCL/images/incredible-india.png) no-repeat;
+	     animation: sitesslider 25s infinite;
+     }
+  @keyframes sitesslider
+  {
+	  10%
+	  {
+		background:url(E:LMRCL/images/digital-india.png) no-repeat;
+	  }
+
+		20%
+	  {
+		background:url(E:LMRCL/images/makeinindia.png) no-repeat;
+	    
+	  }
+	
+		30%
+	  {
+		background:url(E:LMRCL/images/up-gov.png) no-repeat;
+	  }
+      
+	  40%
+	  
+	  {
+		background:url(E:LMRCL/images/india-gov.png) no-repeat;
+	  }
+	  
+		50%
+	  {
+		background:url(E:LMRCL/images/clean-india.jpg) no-repeat;
+	  }
+	  60%
+	  {
+		background:url(E:LMRCL/images/data-gov_0.png) no-repeat;
+	  }
+	  
+	  70%
+	  {
+		background:url(E:LMRCL/images/Indian_Railway.png) no-repeat;
+	  }
+	  
+	  80%
+	  {
+		background:url(E:LMRCL/images/lmrc_logo.png) no-repeat;
+	  }
+
+  }
+ 
+ 
+  
+  
+  
+  
+ 
+  
+  .footer
+  {
+	  opacity:1.2;
+	  margin-top:-620px;
+	  
+	  height:28vh;
+	  width:200vh;
+	  background:#8A9797;
+  }
+  
+ 
+  .h6
+  {
+	 padding-top:5px;
+	  padding-left:5px;
+	  margin-top:835px;
+	  margin-left:40px;
+	  
+	  margin-bottom:5px;
+		 color:#FFFFFF, blink;
+		 font-family:sans-serif;
+		 font-size:24px;
+		 position:relative;
+		  width:250px;
+		  -webkit-user-select:none;
+  }
+  
+.emailid .email
+  {
+	  padding-left:6px;
+	  padding-right:10px;
+	  padding-top:10px;
+	  padding-bottom:7px;
+	  position:absolute;
+	  margin-left:230px;
+	  margin-top:0px;
+	 display:block;
+	 width:290px;
+	 height:20px;
+	 border:none;
+	 outline:none;
+	 border-radius:13px;
+	
+  } 
+::-webkit-input-placeholder
+{
+	text-align:center;
+	color:blue;
+	font-size:19px;	
+}  
+ :-webkit-input-placeholder
+ {
+	 text-align:center;
+	 color:blue;
+	 font-size:15px;	
+ }
+  
+  ::-webkit-placeholder{
+  text-align:center;
+  color:blue;
+ font-size:15px;	
+  }
+  
+  
+  .share
+  {
+	 position:absolute;
+	 top:32%;
+	 left:-2.9%;
+	 
+  }
+  ul
+  {
+	  width:63px;
+	  position:absolute;
+	  overflow:hidden;
+  }
+  .share li
+  {
+	 list-style-type:none;
+	 padding:8px;
+	 transition:0.3s;
+	 color:white;
+	 position:relative:
+	  
+  }
+  
+  .share li i
+  {
+	font-size:30px;	
+	  
+  }
+  
+  .share li:hover
+  {
+	  padding:15px 18px;
+	  
+  }
+  
+  
+ p
+  {
+	  height:32px;
+	  margin:10px;
+	
+  }
+   
+  
+  
+  

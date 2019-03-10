@@ -1,0 +1,108 @@
+.footer
+  {
+	  opacity:1.2;
+	  height:28vh;
+	  width:200vh;
+	  background:#8A9797;
+  }
+  
+ 
+  .h6
+  {
+	
+	  padding-left:5px;
+	  padding-top:65px;
+	  margin-top:95px;
+	  margin-left:40px;
+	  margin-bottom:5px;
+		 color:#FFFFFF, blink;
+		 font-family:sans-serif;
+		 position:relative;
+		  width:250px;
+		  -webkit-user-select:none;
+  }
+  
+.emailid .email
+  {
+	  padding-left:6px;
+	  padding-right:10px;
+	  padding-top:10px;
+	  padding-bottom:7px;
+	  position:absolute;
+	  margin-left:230px;
+	  margin-top:0px;
+	 display:block;
+	 width:290px;
+	 height:20px;
+	 border:none;
+	 outline:none;
+	 border-radius:13px;
+	
+  } 
+::-webkit-input-placeholder
+{
+	text-align:center;
+	color:blue;
+	font-size:19px;	
+}  
+ :-webkit-input-placeholder
+ {
+	 text-align:center;
+	 color:blue;
+	 font-size:15px;	
+ }
+  
+  ::-webkit-placeholder{
+  text-align:center;
+  color:blue;
+ font-size:15px;	
+  }
+  
+  
+  .share
+  {
+	 position:absolute;
+	 top:58%;
+	 left:-2.9%;
+	 
+  }
+  ul
+  {
+	  width:103px;
+	  height:400px;
+	  position:absolute;
+	  overflow:hidden;
+  }
+  .share li
+  {
+	 list-style-type:none;
+	 padding:8px; 
+	 transition:0.3s;
+	 color:white;
+	 position:relative:
+	  
+  }
+  
+  .share li i
+  {
+	font-size:30px;	
+	  
+  }
+  
+  .share li:hover
+  {
+	  padding:15px 18px;
+	  
+  }
+  
+  
+ p
+  {
+	  height:32px;
+	  margin:10px;
+	
+  }
+   
+  
+  
+  
